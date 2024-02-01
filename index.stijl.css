@@ -1,0 +1,28 @@
+body {
+background-color: whitesmoke;
+font-family: Verdana;
+font-size: 14px;
+color: black;
+}
+ul a {
+color: white;
+text-decoration: none;
+}
+li {
+display: inline-block;
+height: 25px;
+width: 100px;
+padding: 12px;
+text-align: center;
+color: white;
+border-left: 2px solid dimgray;
+border-right: 1px solid dimgray;
+background-color: lightgray;
+}
+li :hover {
+background-color: aqua;
+border-style: none;
+}
+h1 {
+margin-left: 200px;
+}

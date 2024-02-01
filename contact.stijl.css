@@ -1,0 +1,24 @@
+body {
+    font-family: Verdana;
+    font-size: 18px;
+    color: black;
+    }
+    input [type="Naam"], input [type="email"], textarea, select, button {
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px lightgray;
+    }
+    textarea {
+    height: 200px;
+    background-color: antiquewhite;
+    padding: 5px 4px;
+    }
+    button:active {
+    background-color: dimgray;
+    color: darkslategray;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 5px black;
+    }
